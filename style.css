@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: inline-flex;
+}
+
+aside {
+    background-color: #2B0F7B;
+    width: 370px;
+}
+
+aside img {
+    width: 370px;
+}
+
+.text-block {
+    margin: 30px 30px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 80px 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    margin: 8px 0;
+    color: #161241;
+}
+
+.true-author-name {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.years {
+    font-size: 32px;
+}
+
+header {
+    background-image: url(./images/9541c97eead9cdaa10d2643f31686be54bb726bb.png);
+    height: 200px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+    margin: 30px 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 80px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffbc00;
+}
+
+.content-text-block {
+    margin: 40px 80px;
+}
+
+aside ul, #about-work ul {
+    margin-left: 20px;
+}
+
+#about-work h2 {
+    color: #28CF7B;
+}
+
+#quote-text {
+    border-style: solid;
+    border-width: 0 0 0 10px;
+    border-color: #ffbc00;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#quote-description {
+    padding: 8px 0 0 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
